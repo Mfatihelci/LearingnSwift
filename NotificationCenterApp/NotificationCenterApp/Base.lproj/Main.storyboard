@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NotificationCenterApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYA-6A-oFz">
+                                <rect key="frame" x="186" y="244" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVB-as-Fw3">
+                                <rect key="frame" x="185.5" y="432.5" width="43" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Git"/>
+                                <connections>
+                                    <segue destination="0cG-ki-D6S" kind="presentation" id="ZBh-RA-Cz4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tYA-6A-oFz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FPP-8d-9gh"/>
+                            <constraint firstItem="tYA-6A-oFz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="SU9-lr-rba"/>
+                            <constraint firstItem="eVB-as-Fw3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qyW-9h-TtU"/>
+                            <constraint firstItem="eVB-as-Fw3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rm2-hC-75H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelSonuc" destination="tYA-6A-oFz" id="P22-Qw-yj7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="66"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="e5W-Yw-V27">
+            <objects>
+                <viewController id="0cG-ki-D6S" customClass="ViewController2" customModule="NotificationCenterApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h01-yX-M3v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeQ-ty-d2Y">
+                                <rect key="frame" x="145" y="405.5" width="124" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Bildirim Gönder"/>
+                                <connections>
+                                    <action selector="gonder:" destination="0cG-ki-D6S" eventType="touchUpInside" id="CC4-2c-VCg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k0r-M3-Fnr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AeQ-ty-d2Y" firstAttribute="centerX" secondItem="h01-yX-M3v" secondAttribute="centerX" id="jVZ-fg-309"/>
+                            <constraint firstItem="AeQ-ty-d2Y" firstAttribute="centerY" secondItem="h01-yX-M3v" secondAttribute="centerY" id="khz-xz-piJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfA-4b-alf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
