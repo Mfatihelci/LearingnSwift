@@ -1,0 +1,6 @@
+framework module Pods_ContactsAppD_ContactsAppDUITests {
+  umbrella header "Pods-ContactsAppD-ContactsAppDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
