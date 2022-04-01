@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6333C02D27F3458E00211261 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6333C02C27F3458E00211261 /* NetworkConstant.swift */; };
+		63C8682927F1B74000D30B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8682827F1B74000D30B5D /* AppDelegate.swift */; };
+		63C8682B27F1B74000D30B5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8682A27F1B74000D30B5D /* SceneDelegate.swift */; };
+		63C8683227F1B74400D30B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8683127F1B74400D30B5D /* Assets.xcassets */; };
+		63C8683527F1B74400D30B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8683327F1B74400D30B5D /* LaunchScreen.storyboard */; };
+		63C8684027F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8683F27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.swift */; };
+		63C8684A27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8684927F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.swift */; };
+		63C8684C27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8684B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift */; };
+		63C8686027F1B83C00D30B5D /* RickMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8685F27F1B83C00D30B5D /* RickMortyViewController.swift */; };
+		63C8686327F1B90F00D30B5D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63C8686227F1B90F00D30B5D /* SnapKit */; };
+		63C8686527F1C8D700D30B5D /* RickyMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8686427F1C8D700D30B5D /* RickyMortyService.swift */; };
+		63C8686727F1C94F00D30B5D /* RickMortyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8686627F1C94F00D30B5D /* RickMortyModel.swift */; };
+		63C8686A27F1CFFA00D30B5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 63C8686927F1CFFA00D30B5D /* Alamofire */; };
+		63C8686D27F1D02300D30B5D /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 63C8686C27F1D02300D30B5D /* AlamofireImage */; };
+		63C8686F27F2501700D30B5D /* RickMortyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8686E27F2501700D30B5D /* RickMortyViewModel.swift */; };
+		63C8687127F2691400D30B5D /* RickMortyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8687027F2691400D30B5D /* RickMortyTableViewCell.swift */; };
+		63EB516227F3A69700F874FE /* RickAndMortyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB516127F3A69700F874FE /* RickAndMortyConstant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C8683C27F1B74500D30B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C8681D27F1B74000D30B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C8682427F1B74000D30B5D;
+			remoteInfo = RickAndMortyProgrammaticTableview;
+		};
+		63C8684627F1B74500D30B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C8681D27F1B74000D30B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C8682427F1B74000D30B5D;
+			remoteInfo = RickAndMortyProgrammaticTableview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6333C02C27F3458E00211261 /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		63C8682527F1B74000D30B5D /* RickAndMortyProgrammaticTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyProgrammaticTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C8682827F1B74000D30B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C8682A27F1B74000D30B5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63C8683127F1B74400D30B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C8683427F1B74400D30B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C8683627F1B74400D30B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C8683B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyProgrammaticTableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C8683F27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyProgrammaticTableviewTests.swift; sourceTree = "<group>"; };
+		63C8684527F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyProgrammaticTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C8684927F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyProgrammaticTableviewUITests.swift; sourceTree = "<group>"; };
+		63C8684B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63C8685F27F1B83C00D30B5D /* RickMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyViewController.swift; sourceTree = "<group>"; };
+		63C8686427F1C8D700D30B5D /* RickyMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyService.swift; sourceTree = "<group>"; };
+		63C8686627F1C94F00D30B5D /* RickMortyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyModel.swift; sourceTree = "<group>"; };
+		63C8686E27F2501700D30B5D /* RickMortyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyViewModel.swift; sourceTree = "<group>"; };
+		63C8687027F2691400D30B5D /* RickMortyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyTableViewCell.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		63EB516127F3A69700F874FE /* RickAndMortyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyConstant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C8682227F1B74000D30B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C8686327F1B90F00D30B5D /* SnapKit in Frameworks */,
+				63C8686A27F1CFFA00D30B5D /* Alamofire in Frameworks */,
+				63C8686D27F1D02300D30B5D /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8683827F1B74500D30B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8684227F1B74500D30B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6333C02A27F3456400211261 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				63EB516027F3A66E00F874FE /* RickAndMortyConstant */,
+				6333C02B27F3457100211261 /* NetworkConstant */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		6333C02B27F3457100211261 /* NetworkConstant */ = {
+			isa = PBXGroup;
+			children = (
+				6333C02C27F3458E00211261 /* NetworkConstant.swift */,
+			);
+			path = NetworkConstant;
+			sourceTree = "<group>";
+		};
+		6333C02E27F34FA300211261 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6333C02F27F34FB800211261 /* RickAndMorty */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6333C02F27F34FB800211261 /* RickAndMorty */ = {
+			isa = PBXGroup;
+			children = (
+				6333C03127F3500D00211261 /* Cell */,
+				63C8686E27F2501700D30B5D /* RickMortyViewModel.swift */,
+				63C8685F27F1B83C00D30B5D /* RickMortyViewController.swift */,
+			);
+			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		6333C03127F3500D00211261 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63C8687027F2691400D30B5D /* RickMortyTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		63C8681C27F1B74000D30B5D = {
+			isa = PBXGroup;
+			children = (
+				63C8682727F1B74000D30B5D /* RickAndMortyProgrammaticTableview */,
+				63C8683E27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests */,
+				63C8684827F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests */,
+				63C8682627F1B74000D30B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C8682627F1B74000D30B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C8682527F1B74000D30B5D /* RickAndMortyProgrammaticTableview.app */,
+				63C8683B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.xctest */,
+				63C8684527F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C8682727F1B74000D30B5D /* RickAndMortyProgrammaticTableview */ = {
+			isa = PBXGroup;
+			children = (
+				63EB515F27F3A53500F874FE /* Resources */,
+				63EB515E27F3A51B00F874FE /* Supporting Files */,
+				63EB515D27F3A1ED00F874FE /* Network */,
+				6333C02E27F34FA300211261 /* Screens */,
+				6333C02A27F3456400211261 /* Constant */,
+				63C8685A27F1B7B300D30B5D /* Core */,
+			);
+			path = RickAndMortyProgrammaticTableview;
+			sourceTree = "<group>";
+		};
+		63C8683E27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				63C8683F27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.swift */,
+			);
+			path = RickAndMortyProgrammaticTableviewTests;
+			sourceTree = "<group>";
+		};
+		63C8684827F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63C8684927F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.swift */,
+				63C8684B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift */,
+			);
+			path = RickAndMortyProgrammaticTableviewUITests;
+			sourceTree = "<group>";
+		};
+		63C8685A27F1B7B300D30B5D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				63C8682A27F1B74000D30B5D /* SceneDelegate.swift */,
+				63C8682827F1B74000D30B5D /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		63EB515D27F3A1ED00F874FE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				63C8686627F1C94F00D30B5D /* RickMortyModel.swift */,
+				63C8686427F1C8D700D30B5D /* RickyMortyService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		63EB515E27F3A51B00F874FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C8683627F1B74400D30B5D /* Info.plist */,
+				63C8683327F1B74400D30B5D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63EB515F27F3A53500F874FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63C8683127F1B74400D30B5D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63EB516027F3A66E00F874FE /* RickAndMortyConstant */ = {
+			isa = PBXGroup;
+			children = (
+				63EB516127F3A69700F874FE /* RickAndMortyConstant.swift */,
+			);
+			path = RickAndMortyConstant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C8682427F1B74000D30B5D /* RickAndMortyProgrammaticTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C8684F27F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableview" */;
+			buildPhases = (
+				63C8682127F1B74000D30B5D /* Sources */,
+				63C8682227F1B74000D30B5D /* Frameworks */,
+				63C8682327F1B74000D30B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RickAndMortyProgrammaticTableview;
+			packageProductDependencies = (
+				63C8686227F1B90F00D30B5D /* SnapKit */,
+				63C8686927F1CFFA00D30B5D /* Alamofire */,
+				63C8686C27F1D02300D30B5D /* AlamofireImage */,
+			);
+			productName = RickAndMortyProgrammaticTableview;
+			productReference = 63C8682527F1B74000D30B5D /* RickAndMortyProgrammaticTableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C8683A27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C8685227F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableviewTests" */;
+			buildPhases = (
+				63C8683727F1B74500D30B5D /* Sources */,
+				63C8683827F1B74500D30B5D /* Frameworks */,
+				63C8683927F1B74500D30B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C8683D27F1B74500D30B5D /* PBXTargetDependency */,
+			);
+			name = RickAndMortyProgrammaticTableviewTests;
+			productName = RickAndMortyProgrammaticTableviewTests;
+			productReference = 63C8683B27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63C8684427F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C8685527F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableviewUITests" */;
+			buildPhases = (
+				63C8684127F1B74500D30B5D /* Sources */,
+				63C8684227F1B74500D30B5D /* Frameworks */,
+				63C8684327F1B74500D30B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C8684727F1B74500D30B5D /* PBXTargetDependency */,
+			);
+			name = RickAndMortyProgrammaticTableviewUITests;
+			productName = RickAndMortyProgrammaticTableviewUITests;
+			productReference = 63C8684527F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C8681D27F1B74000D30B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					63C8682427F1B74000D30B5D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					63C8683A27F1B74500D30B5D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 63C8682427F1B74000D30B5D;
+					};
+					63C8684427F1B74500D30B5D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 63C8682427F1B74000D30B5D;
+					};
+				};
+			};
+			buildConfigurationList = 63C8682027F1B74000D30B5D /* Build configuration list for PBXProject "RickAndMortyProgrammaticTableview" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C8681C27F1B74000D30B5D;
+			packageReferences = (
+				63C8686127F1B90F00D30B5D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				63C8686827F1CFFA00D30B5D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				63C8686B27F1D02300D30B5D /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = 63C8682627F1B74000D30B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C8682427F1B74000D30B5D /* RickAndMortyProgrammaticTableview */,
+				63C8683A27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests */,
+				63C8684427F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C8682327F1B74000D30B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C8683527F1B74400D30B5D /* LaunchScreen.storyboard in Resources */,
+				63C8683227F1B74400D30B5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8683927F1B74500D30B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8684327F1B74500D30B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C8682127F1B74000D30B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C8686727F1C94F00D30B5D /* RickMortyModel.swift in Sources */,
+				63C8682927F1B74000D30B5D /* AppDelegate.swift in Sources */,
+				63C8682B27F1B74000D30B5D /* SceneDelegate.swift in Sources */,
+				63C8686027F1B83C00D30B5D /* RickMortyViewController.swift in Sources */,
+				63C8686527F1C8D700D30B5D /* RickyMortyService.swift in Sources */,
+				63EB516227F3A69700F874FE /* RickAndMortyConstant.swift in Sources */,
+				63C8687127F2691400D30B5D /* RickMortyTableViewCell.swift in Sources */,
+				6333C02D27F3458E00211261 /* NetworkConstant.swift in Sources */,
+				63C8686F27F2501700D30B5D /* RickMortyViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8683727F1B74500D30B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C8684027F1B74500D30B5D /* RickAndMortyProgrammaticTableviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C8684127F1B74500D30B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C8684A27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITests.swift in Sources */,
+				63C8684C27F1B74500D30B5D /* RickAndMortyProgrammaticTableviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63C8683D27F1B74500D30B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C8682427F1B74000D30B5D /* RickAndMortyProgrammaticTableview */;
+			targetProxy = 63C8683C27F1B74500D30B5D /* PBXContainerItemProxy */;
+		};
+		63C8684727F1B74500D30B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C8682427F1B74000D30B5D /* RickAndMortyProgrammaticTableview */;
+			targetProxy = 63C8684627F1B74500D30B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63C8683327F1B74400D30B5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C8683427F1B74400D30B5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C8684D27F1B74500D30B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C8684E27F1B74500D30B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C8685027F1B74500D30B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RickAndMortyProgrammaticTableview/Supporting Files//Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C8685127F1B74500D30B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RickAndMortyProgrammaticTableview/Supporting Files//Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C8685327F1B74500D30B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMortyProgrammaticTableview.app/RickAndMortyProgrammaticTableview";
+			};
+			name = Debug;
+		};
+		63C8685427F1B74500D30B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMortyProgrammaticTableview.app/RickAndMortyProgrammaticTableview";
+			};
+			name = Release;
+		};
+		63C8685627F1B74500D30B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RickAndMortyProgrammaticTableview;
+			};
+			name = Debug;
+		};
+		63C8685727F1B74500D30B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.RickAndMortyProgrammaticTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RickAndMortyProgrammaticTableview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C8682027F1B74000D30B5D /* Build configuration list for PBXProject "RickAndMortyProgrammaticTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C8684D27F1B74500D30B5D /* Debug */,
+				63C8684E27F1B74500D30B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C8684F27F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C8685027F1B74500D30B5D /* Debug */,
+				63C8685127F1B74500D30B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C8685227F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C8685327F1B74500D30B5D /* Debug */,
+				63C8685427F1B74500D30B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C8685527F1B74500D30B5D /* Build configuration list for PBXNativeTarget "RickAndMortyProgrammaticTableviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C8685627F1B74500D30B5D /* Debug */,
+				63C8685727F1B74500D30B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63C8686127F1B90F00D30B5D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		63C8686827F1CFFA00D30B5D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		63C8686B27F1D02300D30B5D /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63C8686227F1B90F00D30B5D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C8686127F1B90F00D30B5D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		63C8686927F1CFFA00D30B5D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C8686827F1CFFA00D30B5D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		63C8686C27F1D02300D30B5D /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C8686B27F1D02300D30B5D /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63C8681D27F1B74000D30B5D /* Project object */;
+}
