@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>634025134892-4vm81effq9rf0ij1lafvv9qh8cnt8ov7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.634025134892-4vm81effq9rf0ij1lafvv9qh8cnt8ov7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbxbk-CtXYLB8K1ffn2XKMvUyWehj_EkA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>634025134892</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>info.DictionaryApp</string>
+	<key>PROJECT_ID</key>
+	<string>celal-58577</string>
+	<key>STORAGE_BUCKET</key>
+	<string>celal-58577.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:634025134892:ios:21be3063a8a0248a3f7a89</string>
+</dict>
+</plist>
